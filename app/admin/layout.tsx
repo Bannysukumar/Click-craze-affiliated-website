@@ -63,9 +63,11 @@ export default function AdminLayout({
       >
         <div className="flex items-center justify-between border-b border-border px-5 py-4">
           <Link href="/admin" className="flex items-center gap-2">
-            <span className="flex h-7 w-7 items-center justify-center rounded-md bg-primary text-xs font-bold text-primary-foreground">
-              CC
-            </span>
+            <img
+              src="/logo.png"
+              alt="Click craze"
+              className="h-8 w-auto object-contain"
+            />
             <span className="font-serif text-lg font-bold text-foreground">
               Admin
             </span>

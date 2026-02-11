@@ -35,12 +35,11 @@ export function SiteFooter({
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-sm font-bold text-primary-foreground">
-                CC
-              </span>
-              <span className="font-serif text-lg font-bold text-foreground">
-                {name}
-              </span>
+              <img
+                src={siteSettings?.logo ?? "/logo.png"}
+                alt={name}
+                className="h-9 w-auto object-contain"
+              />
             </Link>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
               {footerText}

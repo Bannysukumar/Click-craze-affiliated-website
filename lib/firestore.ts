@@ -34,7 +34,7 @@ const DEFAULT_SITE_SETTINGS: SiteSettings = {
   tagline: "Deals, reviews & coupons you'll love",
   defaultMetaDescription: "Discover the best deals and product reviews.",
   defaultOgImage: "/og-default.jpg",
-  logo: "/logo.svg",
+  logo: "/logo.png",
   favicon: "/favicon.ico",
   socialLinks: [],
   footerText: "Your trusted source for deals and reviews.",

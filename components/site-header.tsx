@@ -28,12 +28,11 @@ export function SiteHeader({
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary font-sans text-sm font-bold text-primary-foreground">
-            CC
-          </span>
-          <span className="font-serif text-xl font-bold text-foreground">
-            {siteName}
-          </span>
+          <img
+            src={siteSettings?.logo ?? "/logo.png"}
+            alt={siteName}
+            className="h-9 w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop Nav */}
