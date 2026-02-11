@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Amazon",
+    "slug": "amazon",
+    "logo": "/placeholder.svg",
+    "description": "Amazon India - Shop electronics, fashion, home and more.",
+    "affiliateBaseUrl": "https://www.amazon.in",
+    "linkTemplate": "https://www.amazon.in/dp/{productId}?tag=your-tag-here",
+    "defaultCTA": "Buy on Amazon"
+  },
+  {
+    "name": "Flipkart",
+    "slug": "flipkart",
+    "logo": "/placeholder.svg",
+    "description": "Flipkart - India's largest e-commerce marketplace.",
+    "affiliateBaseUrl": "https://www.flipkart.com",
+    "linkTemplate": "https://www.flipkart.com/product/p/{productId}?affid=your-id",
+    "defaultCTA": "Buy on Flipkart"
+  },
+  {
+    "name": "Ajio",
+    "slug": "ajio",
+    "logo": "/placeholder.svg",
+    "description": "Ajio - Fashion and lifestyle from Reliance.",
+    "affiliateBaseUrl": "https://www.ajio.com",
+    "linkTemplate": "https://www.ajio.com/p/{productId}",
+    "defaultCTA": "Shop on Ajio"
+  },
+  {
+    "name": "Myntra",
+    "slug": "myntra",
+    "logo": "/placeholder.svg",
+    "description": "Myntra - Fashion, beauty and lifestyle.",
+    "affiliateBaseUrl": "https://www.myntra.com",
+    "linkTemplate": "https://www.myntra.com/{productId}",
+    "defaultCTA": "Buy on Myntra"
+  },
+  {
+    "name": "Croma",
+    "slug": "croma",
+    "logo": "/placeholder.svg",
+    "description": "Croma - Electronics and appliances.",
+    "affiliateBaseUrl": "https://www.croma.com",
+    "linkTemplate": "https://www.croma.com/{productId}",
+    "defaultCTA": "Buy on Croma"
+  }
+]
